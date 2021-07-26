@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/moromuro/oneshotSquad.schedulesstatic/css/main.6c4e156f.chunk.css",
+    "main.js": "/moromuro/oneshotSquad.schedulesstatic/js/main.cdc5b923.chunk.js",
+    "main.js.map": "/moromuro/oneshotSquad.schedulesstatic/js/main.cdc5b923.chunk.js.map",
+    "runtime-main.js": "/moromuro/oneshotSquad.schedulesstatic/js/runtime-main.40cd2adf.js",
+    "runtime-main.js.map": "/moromuro/oneshotSquad.schedulesstatic/js/runtime-main.40cd2adf.js.map",
+    "static/js/2.c642133f.chunk.js": "/moromuro/oneshotSquad.schedulesstatic/js/2.c642133f.chunk.js",
+    "static/js/2.c642133f.chunk.js.map": "/moromuro/oneshotSquad.schedulesstatic/js/2.c642133f.chunk.js.map",
+    "index.html": "/moromuro/oneshotSquad.schedulesindex.html",
+    "static/css/main.6c4e156f.chunk.css.map": "/moromuro/oneshotSquad.schedulesstatic/css/main.6c4e156f.chunk.css.map",
+    "static/js/2.c642133f.chunk.js.LICENSE.txt": "/moromuro/oneshotSquad.schedulesstatic/js/2.c642133f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40cd2adf.js",
+    "static/js/2.c642133f.chunk.js",
+    "static/css/main.6c4e156f.chunk.css",
+    "static/js/main.cdc5b923.chunk.js"
+  ]
+}
