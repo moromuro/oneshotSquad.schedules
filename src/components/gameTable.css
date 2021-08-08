@@ -1,0 +1,17 @@
+
+.gameTable {
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.gameCard {
+    background-color: #1F56A0;
+    border: 0px;
+    border-radius: 15px;
+}
+
+.userTime {
+    margin-bottom: 0px;
+}

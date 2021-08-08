@@ -1,20 +1,33 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import './gameTable.css';
 
-class Products extends React.Component {
+import GAMES from '../games.json';
+
+class GameTable extends React.Component {
+
+    renderInfo() {
+        const rows = [];
+        GAMES.forEach((game, index) => {
+            rows.push(
+                <div key={index} className="gameCard">
+                    <h2 className="userTime">{new Date(game.date).toLocaleString('en-gb', { dateStyle: 'medium', timeStyle: 'medium'})}</h2>
+                    <p>{game.date.toString('en-gb', { dateStyle: 'medium', timeStyle: 'medium'})}</p>
+                    <p>{game.players}</p>
+                    <p>{game.description}</p>
+                </div>
+            );
+        })
+        
+        return rows;
+    }
+
     render() {
         return (
             <div className="gameTable">
-                <h4 className="gameTable--title">{this.props.game}</h4>
+                {this.renderInfo()}
             </div>
         )
     }
 }
 
-Products.propTypes = {
-    game: PropTypes.string,
-    names: PropTypes.array,
-    time: PropTypes.date,
-}
-
-export default Products;
+export default GameTable;

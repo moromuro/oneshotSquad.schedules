@@ -3,8 +3,9 @@
 }
   
 body {
-background: #f4f5f7;
-margin: 0;
+    background: #286DCA;
+    margin: 0;
+    text-align: center;
 }
 
 .landing-page-container {
@@ -88,3 +89,69 @@ margin: 0;
     padding: 20px;
 }
 
+.card {
+    background-color: #1F56A0;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.description-header {
+    margin-top: 0px;
+    max-width: 100%;
+    background-color: lightblue;
+    border-radius: 0px;
+    border-bottom: darkblue;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    
+}
+
+.bigTimerCard {
+    background-color: darkgoldenrod;
+    margin: 10px;
+}
+
+.bigTimerLabel {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.bigTimer {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.timerText {
+    margin-bottom: 0px;
+    font-size: 20px;   
+}
+
+.gameList {
+    background-color: lightblue;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.middleBreak {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#comingGames {
+
+}

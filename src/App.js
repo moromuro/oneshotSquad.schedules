@@ -6,6 +6,7 @@ import './App.css';
 import GameTable from './components/gameTable';
 import Test from './components/test';
 import CalculateTimer from './components/calculateTimer';
+import GAMES from './games.json';
 
 class App extends React.Component {
     constructor(props) {
@@ -23,11 +24,12 @@ class App extends React.Component {
             duration: 2 * 60 * 1000,
         }
         this.startTimer = this.start.bind(this);
-        this.nextGame = {
-            date: new Date('2021-07-27T20:15:00'),
-            players: 'Player1, player2, player3',
-            description: 'lirum larm',
-        }
+        // this.nextGame = {
+        //     date: new Date('2021-07-27T20:15:00'),
+        //     players: 'Player1, player2, player3',
+        //     description: 'lirum larm',
+        // }
+        this.nextGame = GAMES[0];
     }
 
     msToTime(duration) {
@@ -52,15 +54,18 @@ class App extends React.Component {
     start() {
         if (!this.state.timer) {
             this.state.startTime = Date.now();
-            this.state.duration = this.nextGame.date.getTime() - Date.now();
+            // console.log(this.state.startTime.getTime());
+            this.state.duration = new Date(this.nextGame.date).getTime() -  Date.now();
             this.timer = window.setInterval(() => this.run(), 1000);
+
         }
     }
 
     run() {
-        console.log('start time ',this.state.startTime);
+        // console.log('start time ',this.state.startTime);
         const diff = Date.now() - this.state.startTime;
-        console.log('diff', diff);
+        // console.log('diff', diff);
+
         // If you want to count up
         // this.setState(() => ({
         //  time: this.msToTime(diff)
@@ -72,7 +77,7 @@ class App extends React.Component {
         // console.log(nextGameTime);
 
         // let remaining = nextGameTime - Date.now();
-        console.log('remaining ', remaining);
+        // console.log('remaining ', remaining);
 
         if (remaining < 0) {
           remaining = 0;
@@ -88,35 +93,56 @@ class App extends React.Component {
         }
     }
 
+    renderGameTable() {
+        return(
+            <GameTable />
+        )
+    }
+
     render() {
         return (
             <div className="App">
                 {this.startTimer()}
-                <div className="timer">
-                    <h3>Next Game in:</h3>
-                    <p>{this.state.time.hours} : {this.state.time.minutes} : {this.state.time.seconds}</p>
-                    <p>{this.nextGame.players}</p>
-                    <p>{this.nextGame.description}</p>
-                    <p>Game time: {this.nextGame.date.toLocaleString()}</p>
+                <div className="description-header card">
+                    <h1>ONESHOT SQUAD</h1>
+                    <p>Games listed under are fanmade and updated at random times.</p>
+                    <p>With issues regarding games, contact Moro on the discord channel.</p>
+                    <h3>Ths site is still very much WIP and backend guy is in charge of design as you can see. :suffer:</h3>
                 </div>
-                <h1>hello</h1>
+                <div className="timer card">
+                    <div className="bigTimerCard">
+                        <p className="bigTimerLabel">Next Game in</p>
+                        <p className="bigTimer">
+                            <strong>
+                                {this.state.time.hours} : {this.state.time.minutes} : {this.state.time.seconds}
+                            </strong>
+                        </p>
+                    </div>
+                    
+                    <br></br>
+                    <p className="timerText"><strong>{new Date(this.nextGame.date).toLocaleString('en-gb', { dateStyle: 'medium', timeStyle: 'long'})}</strong></p>
+                    <span className="infoText">Your timezone: {Intl.DateTimeFormat().resolvedOptions().timeZone}</span>
+                    <br></br>
+                    <p className="timerText">{this.nextGame.date.toString('en-gb')}</p>
+                    <span className="infoText">UTC time</span>
+                    <br></br>
+                    <br></br>
+                    <p>Players</p>
+                    <p>{this.nextGame.players}</p>
+                    <br></br>
+                    <p>Description</p>
+                    <p>{this.nextGame.description}</p>
+                    <br></br>
+                </div>
 
-
-                {/* <Container>
-                    <Row>
-                        <Col sm={12}>
-                            <div className="test">
-                                <p>hello</p>
-                                <GameTable 
-                                    game="test name"
-                                    names={["1", "2"]}
-                                    time={new Date()}
-                                />
-                            </div>
-                        </Col>
-                    </Row>
-                </Container> */}
+                <div className="gameList">
+                    <div className="middleBreak">
+                        <h2 id="comingGames">Coming games</h2>
+                    </div>
+                    {this.renderGameTable()}
+                </div>
                 <div style={{ height: '100px' }} />
+                
             </div>
         )
     }
