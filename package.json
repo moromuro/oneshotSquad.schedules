@@ -1,23 +1,24 @@
 {
-  "name": "oneshotsquad.schedules",
+  "name": "oneshotsquad",
   "version": "1.0.0",
   "description": "oneshotsquad schedules",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -d build -b master",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "hep": "webpack-dev-server --mode development"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moromuro/oneshotSquad.schedules.git"
+    "url": "git+https://github.com/moromuro/oneshotsquad.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/moromuro/oneshotSquad.schedules/issues"
+    "url": "https://github.com/moromuro/oneshotsquad/issues"
   },
-  "homepage": "https://github.com/moromuro/oneshotSquad.schedules#readme",
+  "homepage": "https://moromuro.github.io/oneshotsquad",
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.5.2",
@@ -31,12 +32,11 @@
     "@babel/plugin-proposal-class-properties": "^7.14.5",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.2",
     "css-loader": "^1.0.0",
+    "gh-pages": "^3.2.3",
+    "react-scripts": "^4.0.3",
     "style-loader": "^0.23.0",
-    "webpack": "^4.19.1",
-    "webpack-cli": "^3.1.1",
-    "webpack-dev-server": "^3.1.8"
+    "webpack-cli": "^3.1.1"
   },
   "browserslist": {
     "production": [
