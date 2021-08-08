@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/oneshotsquad/static/css/main.8b6692a8.chunk.css",
-    "main.js": "/oneshotsquad/static/js/main.9e8c06c4.chunk.js",
-    "main.js.map": "/oneshotsquad/static/js/main.9e8c06c4.chunk.js.map",
+    "main.js": "/oneshotsquad/static/js/main.a1ff52b2.chunk.js",
+    "main.js.map": "/oneshotsquad/static/js/main.a1ff52b2.chunk.js.map",
     "runtime-main.js": "/oneshotsquad/static/js/runtime-main.3db51785.js",
     "runtime-main.js.map": "/oneshotsquad/static/js/runtime-main.3db51785.js.map",
     "static/js/2.41b7f4be.chunk.js": "/oneshotsquad/static/js/2.41b7f4be.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.3db51785.js",
     "static/js/2.41b7f4be.chunk.js",
     "static/css/main.8b6692a8.chunk.css",
-    "static/js/main.9e8c06c4.chunk.js"
+    "static/js/main.a1ff52b2.chunk.js"
   ]
 }
