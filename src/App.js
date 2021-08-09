@@ -1,11 +1,8 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-grid-system';
 import { hot } from 'react-hot-loader';
 import './App.css';
 
 import GameTable from './components/gameTable';
-import Test from './components/test';
-import CalculateTimer from './components/calculateTimer';
 import GAMES from './games.json';
 
 class App extends React.Component {
@@ -21,23 +18,18 @@ class App extends React.Component {
             },
             startTime: 0,
             timer: null,
-            duration: 2 * 60 * 1000,
+            duration: 0,
         }
         this.startTimer = this.start.bind(this);
-        // this.nextGame = {
-        //     date: new Date('2021-07-27T20:15:00'),
-        //     players: 'Player1, player2, player3',
-        //     description: 'lirum larm',
-        // }
-        this.nextGame = GAMES[0];
+        this.nextGame = [];
     }
 
     msToTime(duration) {
         let milliseconds = parseInt((duration % 1000));
         let seconds = Math.floor((duration / 1000) % 60);
         let minutes = Math.floor((duration / (1000 * 60)) % 60);
-        let hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
-    
+        let hours = Math.floor(duration / (1000 * 60 * 60));
+
         hours = hours.toString().padStart(2, '0');
         minutes = minutes.toString().padStart(2, '0');
         seconds = seconds.toString().padStart(2, '0');
@@ -52,32 +44,42 @@ class App extends React.Component {
     }
 
     start() {
-        if (!this.state.timer) {
-            this.state.startTime = Date.now();
-            // console.log(this.state.startTime.getTime());
-            this.state.duration = new Date(this.nextGame.date).getTime() -  Date.now();
-            this.timer = window.setInterval(() => this.run(), 1000);
+        if (this.nextGame.length === 0) {
+            
+            let i = 0;
+            let found = false;
+            while (!found) {
+            
+                if (i === GAMES.length) {
+                    break;
+                }
+                
+                const game = GAMES[i];
 
+                if ((new Date(game.date).getTime() - Date.now()) > 0) {
+                    this.nextGame = GAMES[i];
+                    found = true;
+                }
+
+                i++;
+            }
+        }
+
+        if (!this.state.timer) {
+            /**
+             * Set the timer from the point of opening the site while staying there.
+             */ 
+            this.state.startTime = Date.now();
+            this.state.duration = new Date(this.nextGame.date).getTime() - Date.now();
+            this.timer = window.setInterval(() => this.run(), 1000);
         }
     }
 
     run() {
-        // console.log('start time ',this.state.startTime);
         const diff = Date.now() - this.state.startTime;
-        // console.log('diff', diff);
-
-        // If you want to count up
-        // this.setState(() => ({
-        //  time: this.msToTime(diff)
-        // }));
         
         // count down
         let remaining = this.state.duration - diff;
-        // const nextGameTime = this.nextGame.date.getTime();
-        // console.log(nextGameTime);
-
-        // let remaining = nextGameTime - Date.now();
-        // console.log('remaining ', remaining);
 
         if (remaining < 0) {
           remaining = 0;
@@ -137,7 +139,7 @@ class App extends React.Component {
 
                 <div className="gameList">
                     <div className="middleBreak">
-                        <h2 id="comingGames">Coming games</h2>
+                        <h2 id="comingGames">Gamelist</h2>
                     </div>
                     {this.renderGameTable()}
                 </div>

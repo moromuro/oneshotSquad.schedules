@@ -7,7 +7,7 @@
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "hep": "webpack-dev-server --mode development"
+    "local": "webpack-dev-server --mode development"
   },
   "repository": {
     "type": "git",
