@@ -42,7 +42,7 @@ class App extends React.Component {
           milliseconds
         };
     }
-
+ 
     start() {
         if (this.nextGame.length === 0) {
             
