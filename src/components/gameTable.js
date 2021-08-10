@@ -9,14 +9,32 @@ class GameTable extends React.Component {
         const rows = [];
         GAMES.forEach((game, index) => {
             if ((new Date(game.date).getTime() - Date.now()) > 0) {
-                rows.push(
-                    <div key={index} className="gameCard">
-                        <h2 className="userTime">{new Date(game.date).toLocaleString('en-gb', { dateStyle: 'medium', timeStyle: 'medium'})}</h2>
-                        <p>{game.date.toString('en-gb', { dateStyle: 'medium', timeStyle: 'medium'})}</p>
-                        <p>{game.players}</p>
-                        <p>{game.description}</p>
-                    </div>
-                );
+
+                // LAst row check
+                if (index === GAMES.length - 1) {
+                    rows.push(
+                        <div key={index} className="gameCard">
+                            <h1 className="userTime">{new Date(game.date).toLocaleString('en-gb', { dateStyle: 'medium', timeStyle: 'medium'})}</h1>
+                            <p>{new Date(game.date).toUTCString()}</p>
+                            <br/>
+                            <p>{game.players}</p>
+                            <br/>
+                            <p>{game.description}</p>
+                        </div>
+                    );
+                } else {
+                    rows.push(
+                        <div key={index} className="gameCard middleRow">
+                            <h1 className="userTime">{new Date(game.date).toLocaleString('en-gb', { dateStyle: 'medium', timeStyle: 'medium'})}</h1>
+                            <p>{new Date(game.date).toUTCString()}</p>
+                            <br/>
+                            <p>{game.players}</p>
+                            <br/>
+                            <p>{game.description}</p>
+                        </div>
+                    );
+                }
+                
             }
         })
         

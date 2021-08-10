@@ -109,37 +109,40 @@ class App extends React.Component {
                     <h1>ONESHOT SQUAD</h1>
                     <p>Games listed under are fanmade and updated at random times.</p>
                     <p>With issues regarding games, contact Moro on the discord channel.</p>
-                    <h3>Ths site is still very much WIP and backend guy is in charge of design as you can see. :suffer:</h3>
                 </div>
                 <div className="timer card">
                     <div className="bigTimerCard">
-                        <p className="bigTimerLabel">Next Game in</p>
+                        <div className="bigTimerLabelDiv">
+                            <p id="bigTimerLabel">Next Game in</p>
+                        </div>
                         <p className="bigTimer">
                             <strong>
                                 {this.state.time.hours} : {this.state.time.minutes} : {this.state.time.seconds}
                             </strong>
                         </p>
                     </div>
+                    <div className="timerInfo"> 
+                        <p className="timerText"><strong>{new Date(this.nextGame.date).toLocaleString('en-gb', { dateStyle: 'medium', timeStyle: 'long'})}</strong></p>
+                        <span className="infoText">Your timezone: {Intl.DateTimeFormat().resolvedOptions().timeZone}</span>
+                        <br></br>
+                        <p className="timerText">{new Date(this.nextGame.date).toUTCString()}</p>
+                        <span className="infoText">UTC time</span>
+                        <br></br>
+                        <br></br>
+                        <p>Players</p>
+                        <p>{this.nextGame.players}</p>
+                        <br></br>
+                        <p>Description</p>
+                        <p>{this.nextGame.description}</p>
+                    </div>
+                    <br></br>
                     
-                    <br></br>
-                    <p className="timerText"><strong>{new Date(this.nextGame.date).toLocaleString('en-gb', { dateStyle: 'medium', timeStyle: 'long'})}</strong></p>
-                    <span className="infoText">Your timezone: {Intl.DateTimeFormat().resolvedOptions().timeZone}</span>
-                    <br></br>
-                    <p className="timerText">{this.nextGame.date.toString('en-gb')}</p>
-                    <span className="infoText">UTC time</span>
-                    <br></br>
-                    <br></br>
-                    <p>Players</p>
-                    <p>{this.nextGame.players}</p>
-                    <br></br>
-                    <p>Description</p>
-                    <p>{this.nextGame.description}</p>
                     <br></br>
                 </div>
 
                 <div className="gameList">
                     <div className="middleBreak">
-                        <h2 id="comingGames">Gamelist</h2>
+                        <h2 id="comingGames">Coming games</h2>
                     </div>
                     {this.renderGameTable()}
                 </div>

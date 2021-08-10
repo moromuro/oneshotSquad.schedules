@@ -3,7 +3,7 @@
 }
   
 body {
-    background: #286DCA;
+    background: #2B2E4D;
     margin: 0;
     text-align: center;
 }
@@ -13,85 +13,13 @@ body {
     height: 100vh;
 }
 
-
-.App--toggle-view {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    margin-top: -10px;
-    border-radius: 30px;
-    overflow: hidden;
-    position: relative;
-    z-index: 100;
-    background: white;
-}
-
-.App--toggle-view__option {
-    background: #253764;
-    padding: 10px;
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0.5;
-    cursor: pointer;
-    user-select: none;
-}
-
-.App--toggle-view__option.active {
-    opacity: 1;
-}
-
-.App--toggle-view__option-text {
+h1, h2, h3, p, span {
     color: white;
-    text-align: center;
-}
-
-.App--description__title {
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.App--description__text{
-    font-weight: bold;
-}
-
-.App--description {
-    background: white;
-    width: 100%;
-    padding: 20px;
-    margin-top: -100px;
-    z-index: 50;
-    position: relative;
-}
-
-.App--loading {
-    text-align: center;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.App--searchbox {
-    margin-top: 10px;
-    padding: 8px 16px;
-    font-size: 14px;
-    width: 100%;
-    outline: none;
-    border: 2px solid #28aae1;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #253764;
-}
-
-.App--body {
-    padding: 20px;
 }
 
 .card {
-    background-color: #1F56A0;
-    border-color: black;
+    background-color: #191B2D;
+    border-color: #191B2D;
     border-width: 1px;
     border-style: solid;
     border-radius: 15px;
@@ -102,31 +30,41 @@ body {
 }
 
 .description-header {
+    box-shadow: 0 0 0 4px white , 0 0 0 0;
     margin-top: 0px;
     max-width: 100%;
-    background-color: lightblue;
+    background-color: #161928;
     border-radius: 0px;
-    border-bottom: darkblue;
+    border-bottom: #161928;
     border-bottom-style: solid;
-    border-bottom-width: 10px;
-    
+    border-bottom-width: 10px;  
+}
+
+.timer {
+    box-shadow: 0 0 0 4px white , 0 0 0 0;
 }
 
 .bigTimerCard {
-    background-color: darkgoldenrod;
+    border-style: solid;
+    border: 0px;
+    border-bottom: 5px white solid;
     margin: 10px;
 }
 
-.bigTimerLabel {
-    margin-top: 15px;
+.bigTimerLabelDiv {
+    margin-top: 20px;
     margin-bottom: 0px;
+    padding-top: 10px;
+}
+
+#bigTimerLabel {
     font-size: 20px;
 }
 
 .bigTimer {
-    font-size: 50px;
+    font-size: 70px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 60px;
 }
 
 .timerText {
@@ -135,7 +73,8 @@ body {
 }
 
 .gameList {
-    background-color: lightblue;
+    box-shadow: 0 0 0 4px white , 0 0 0 7px #1F56A0;
+    background-color: #191B2D;
     max-width: 500px;
     margin: auto;
     border-radius: 10px;
@@ -150,8 +89,4 @@ body {
     margin-bottom: 20px;
     border-radius: 10px;
     text-align: center;
-}
-
-#comingGames {
-
 }
