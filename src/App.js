@@ -106,9 +106,9 @@ class App extends React.Component {
             <div className="App">
                 {this.startTimer()}
                 <div className="description-header card">
-                    <h1>ONESHOT SQUAD</h1>
-                    <p>Games listed under are fanmade and updated at random times.</p>
-                    <p>With issues regarding games, contact Moro on the discord channel.</p>
+                    <h1> GMT ONESHOT SQUAD</h1>
+                    <p>This is fanmade site. Scheduled games will be updated whenever I have time</p>
+                    <p>With possible issues regarding the site, contact Moro on the discord.</p>
                 </div>
                 <div className="timer card">
                     <div className="bigTimerCard">
@@ -122,10 +122,10 @@ class App extends React.Component {
                         </p>
                     </div>
                     <div className="timerInfo"> 
-                        <p className="timerText"><strong>{new Date(this.nextGame.date).toLocaleString('en-gb', { dateStyle: 'medium', timeStyle: 'long'})}</strong></p>
+                        <p className="timerText1"><strong>{new Date(this.nextGame.date).toLocaleString('en-gb', { dateStyle: 'medium', timeStyle: 'long'})}</strong></p>
                         <span className="infoText">Your timezone: {Intl.DateTimeFormat().resolvedOptions().timeZone}</span>
                         <br></br>
-                        <p className="timerText">{new Date(this.nextGame.date).toUTCString()}</p>
+                        <p className="timerText2">{new Date(this.nextGame.date).toUTCString()}</p>
                         <span className="infoText">UTC time</span>
                         <br></br>
                         <br></br>
@@ -142,7 +142,7 @@ class App extends React.Component {
 
                 <div className="gameList">
                     <div className="middleBreak">
-                        <h2 id="comingGames">Coming games</h2>
+                        <h2 id="comingGames">Upcoming games</h2>
                     </div>
                     {this.renderGameTable()}
                 </div>

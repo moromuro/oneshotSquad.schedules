@@ -1,5 +1,6 @@
 
-- Bigger font on timer?
+- Bigger font on timer?  - DONE
 
+- mobile look, check how the stuff works - DONE
 
 

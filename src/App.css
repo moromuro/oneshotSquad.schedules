@@ -4,7 +4,7 @@
   
 body {
     background: #2B2E4D;
-    margin: 0;
+    margin: 20px;
     text-align: center;
 }
 
@@ -58,16 +58,21 @@ h1, h2, h3, p, span {
 }
 
 #bigTimerLabel {
-    font-size: 20px;
+    font-size: 4vh;
 }
 
 .bigTimer {
-    font-size: 70px;
+    font-size: 8.6vh;
     margin-top: 10px;
     margin-bottom: 60px;
 }
 
-.timerText {
+.timerText1 {
+    margin-bottom: 0px;
+    font-size: 25px;   
+}
+
+.timerText2 {
     margin-bottom: 0px;
     font-size: 20px;   
 }
