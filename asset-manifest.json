@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.a6148623.chunk.css",
-    "main.js": "/static/js/main.a4e37f52.chunk.js",
-    "main.js.map": "/static/js/main.a4e37f52.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d2f99746.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d2f99746.js.map",
-    "static/js/2.12807097.chunk.js": "/static/js/2.12807097.chunk.js",
-    "static/js/2.12807097.chunk.js.map": "/static/js/2.12807097.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.a6148623.chunk.css.map": "/static/css/main.a6148623.chunk.css.map",
-    "static/js/2.12807097.chunk.js.LICENSE.txt": "/static/js/2.12807097.chunk.js.LICENSE.txt"
+    "main.css": "/moromuro/oneshotsquad/static/css/main.a6148623.chunk.css",
+    "main.js": "/moromuro/oneshotsquad/static/js/main.a4e37f52.chunk.js",
+    "main.js.map": "/moromuro/oneshotsquad/static/js/main.a4e37f52.chunk.js.map",
+    "runtime-main.js": "/moromuro/oneshotsquad/static/js/runtime-main.2fa2765a.js",
+    "runtime-main.js.map": "/moromuro/oneshotsquad/static/js/runtime-main.2fa2765a.js.map",
+    "static/js/2.12807097.chunk.js": "/moromuro/oneshotsquad/static/js/2.12807097.chunk.js",
+    "static/js/2.12807097.chunk.js.map": "/moromuro/oneshotsquad/static/js/2.12807097.chunk.js.map",
+    "index.html": "/moromuro/oneshotsquad/index.html",
+    "static/css/main.a6148623.chunk.css.map": "/moromuro/oneshotsquad/static/css/main.a6148623.chunk.css.map",
+    "static/js/2.12807097.chunk.js.LICENSE.txt": "/moromuro/oneshotsquad/static/js/2.12807097.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d2f99746.js",
+    "static/js/runtime-main.2fa2765a.js",
     "static/js/2.12807097.chunk.js",
     "static/css/main.a6148623.chunk.css",
     "static/js/main.a4e37f52.chunk.js"
