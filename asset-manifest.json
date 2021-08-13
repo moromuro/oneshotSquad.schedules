@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/oneshotsquad/static/css/main.18dca737.chunk.css",
-    "main.js": "/oneshotsquad/static/js/main.db3dba93.chunk.js",
-    "main.js.map": "/oneshotsquad/static/js/main.db3dba93.chunk.js.map",
+    "main.css": "/oneshotsquad/static/css/main.a6148623.chunk.css",
+    "main.js": "/oneshotsquad/static/js/main.a4e37f52.chunk.js",
+    "main.js.map": "/oneshotsquad/static/js/main.a4e37f52.chunk.js.map",
     "runtime-main.js": "/oneshotsquad/static/js/runtime-main.3db51785.js",
     "runtime-main.js.map": "/oneshotsquad/static/js/runtime-main.3db51785.js.map",
     "static/js/2.12807097.chunk.js": "/oneshotsquad/static/js/2.12807097.chunk.js",
     "static/js/2.12807097.chunk.js.map": "/oneshotsquad/static/js/2.12807097.chunk.js.map",
     "index.html": "/oneshotsquad/index.html",
-    "static/css/main.18dca737.chunk.css.map": "/oneshotsquad/static/css/main.18dca737.chunk.css.map",
+    "static/css/main.a6148623.chunk.css.map": "/oneshotsquad/static/css/main.a6148623.chunk.css.map",
     "static/js/2.12807097.chunk.js.LICENSE.txt": "/oneshotsquad/static/js/2.12807097.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3db51785.js",
     "static/js/2.12807097.chunk.js",
-    "static/css/main.18dca737.chunk.css",
-    "static/js/main.db3dba93.chunk.js"
+    "static/css/main.a6148623.chunk.css",
+    "static/js/main.a4e37f52.chunk.js"
   ]
 }
