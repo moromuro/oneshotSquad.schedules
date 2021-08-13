@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/moromuro/oneshotsquad/issues"
   },
-  "homepage": "https://oneshotsquad.info",
+  "homepage": "https://github.com/moromuro/oneshotsquad",
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.5.2",
