@@ -1,27 +1,52 @@
 [
     {
-        "date": "2021-08-12T20:00:00Z",
-        "players": "Player 1, Player 2, player 3",
-        "description": "lirum larm"
+        "date": "2021-08-16T15:00:00Z",
+        "players": "Purple, Rinceswind, (+2 slots)",
+        "description": "Deep within an abandoned dig site, there lies ancient tablets that hold information about the Dark Serpent."
     },
     {
-        "date": "2021-08-14T20:15:00Z",
-        "players": "Player 4, player 5, player 6",
-        "description": "lirum larm absadant"
+        "date": "2021-08-16T22:00:00Z",
+        "players": "LZY, Picaroon, (+2 slots)",
+        "description": "Drums of war echoes trough the land as Jae-sungs forces leave behing a trail of destruction."
     },
     {
-        "date": "2021-08-20T23:13:00Z",
-        "players": "Player 45, player 8, player 9",
-        "description": "lirum larm absadant"
+        "date": "2021-08-17T15:00:00Z",
+        "players": "Moro, Purple, Rinceswind (+1 slot)",
+        "description": "The travel to the city of Gita is dangerious and full of terrors."
     },
     {
-        "date": "2021-09-07T15:15:00Z",
-        "players": "Player 12, player 14, player 19, player 123",
-        "description": "lirum larm absadant"
+        "date": "2021-08-20T15:00:00Z",
+        "players": "Asmordey, Ce'Nedra, Moro",
+        "description": "As the fates of people head towards their ends, new bonds are born from their actions."
     },
     {
-        "date": "2021-09-09T20:15:00Z",
-        "players": "Player 4, player 5, player 6",
-        "description": "lirum larm absadant"
+        "date": "2021-08-22T14:00:00Z",
+        "players": "Purple, Warlord, (+2 slots)",
+        "description": "~Story to be revealed~"
+    },
+    {
+        "date": "2021-08-24T22:00:00Z",
+        "players": "LZY, Picaroon, (+2 slots)",
+        "description": "~Story to be revealed~"
+    },
+    {
+        "date": "2021-08-26T15:00:00Z",
+        "players": "Moro, Picaroon, Rinceswind, (+1",
+        "description": "~Story to be revealed~"
+    },
+    {
+        "date": "2021-08-27T15:00:00Z",
+        "players": "Asmordeus, Ce'Nedra, (+2 slots)",
+        "description": "~Story to be revealed~"
+    },
+    {
+        "date": "2021-08-29T14:00:00Z",
+        "players": "Asmordeus, Warlord, (+2 slots)",
+        "description": "~Story to be revealed~"
+    },
+    {
+        "date": "2021-08-29T22:00:00Z",
+        "players": "Ce'Nedra, LZY, (+2 slots)",
+        "description": "~Story to be revealed~"
     }
 ]
