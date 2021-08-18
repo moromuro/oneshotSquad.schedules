@@ -17,36 +17,21 @@
     {
         "date": "2021-08-20T15:00:00Z",
         "players": "Asmordeus, Ce'Nedra, Moro (+1 slot)",
-        "description": "As the fates of people head towards their ends, new bonds are born from their actions."
+        "description": "Its not easy to get people out of prison and sometimes its even harder to get in."
     },
     {
         "date": "2021-08-22T14:00:00Z",
         "players": "Purple, Warlord, (+2 slots)",
-        "description": "~Story to be revealed~"
-    },
-    {
-        "date": "2021-08-24T22:00:00Z",
-        "players": "LZY, Picaroon, (+2 slots)",
-        "description": "~Story to be revealed~"
+        "description": "As the sun is setting, its last beams of light shine their glow upon the bodies of these captives."
     },
     {
         "date": "2021-08-26T15:00:00Z",
         "players": "Moro, Picaroon, Rinceswind, (+1 slot)",
-        "description": "~Story to be revealed~"
+        "description": "Drums of war echoes trough the land as the horrors of war rise from the shadows."
     },
     {
         "date": "2021-08-27T15:00:00Z",
-        "players": "Asmordeus, Ce'Nedra, (+2 slots)",
-        "description": "~Story to be revealed~"
-    },
-    {
-        "date": "2021-08-29T14:00:00Z",
-        "players": "Asmordeus, Warlord, (+2 slots)",
-        "description": "~Story to be revealed~"
-    },
-    {
-        "date": "2021-08-29T22:00:00Z",
-        "players": "Ce'Nedra, LZY, (+2 slots)",
+        "players": "Asmordeus, Ce'Nedra, Picaroon, (+1 slot)",
         "description": "~Story to be revealed~"
     }
 ]
