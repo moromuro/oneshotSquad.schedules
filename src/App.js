@@ -106,9 +106,9 @@ class App extends React.Component {
             <div className="App">
                 {this.startTimer()}
                 <div className="description-header card">
-                    <h1> GMT ONESHOT SQUAD</h1>
-                    <p>This is fanmade site. Scheduled games will be updated whenever I have time</p>
-                    <p>With possible issues regarding the site, contact Moro on the discord.</p>
+                    <h1 id="header-headline-1"> GMT ONESHOT SQUAD</h1>
+                    <p id="header-text-1">Adventures in the World of Bal'Morel,<br/>brought to you by DM Zaeryss.</p>
+                    <p id="header-text-2">With possible issues regarding the site,<br/> contact Moro on discord.</p>
                 </div>
                 <div className="timer card">
                     <div className="bigTimerCard">
@@ -132,7 +132,7 @@ class App extends React.Component {
                         <p>Players</p>
                         <p>{this.nextGame.players}</p>
                         <br></br>
-                        <p>Description</p>
+                        <p>Story</p>
                         <p>{this.nextGame.description}</p>
                     </div>
                     <br></br>

@@ -1,37 +1,42 @@
 [
     {
-        "date": "2021-08-16T15:00:00Z",
-        "players": "Purple, Rinceswind, (+2 slots)",
-        "description": "Deep within an abandoned dig site, there lies ancient tablets that hold information about the Dark Serpent."
+        "date": "2021-09-02T17:00:00Z",
+        "players": "Neeko, Picaroon, Purple, Sleepy, Warlord",
+        "description": "~To be revealed~"
     },
     {
-        "date": "2021-08-16T22:00:00Z",
-        "players": "LZY, Picaroon, (+2 slots)",
-        "description": "Drums of war echoes trough the land as Jae-sungs forces leave behing a trail of destruction."
+        "date": "2021-09-06T18:30:00Z",
+        "players": "Adi. Moromuro, Picaroon, Sleepy",
+        "description": "~~Mirror realm shenanigans~~"
     },
     {
-        "date": "2021-08-17T15:00:00Z",
-        "players": "Moro, Purple, Rinceswind (+1 slot)",
-        "description": "The travel to the city of Gita is dangerious and full of terrors."
+        "date": "2021-09-07T15:00:00Z",
+        "players": "Moro, Purple, Sleepy (+1 slot)",
+        "description": "~To be revealed~"
     },
     {
-        "date": "2021-08-20T15:00:00Z",
-        "players": "Asmordeus, Ce'Nedra, Moro (+1 slot)",
-        "description": "Its not easy to get people out of prison and sometimes its even harder to get in."
+        "date": "2021-09-11T21:00:00Z",
+        "players": "Ce'Nedra, Neeko, Warlord (+1 slot)",
+        "description": "~To be revealed~"
     },
     {
-        "date": "2021-08-22T14:00:00Z",
-        "players": "Purple, Warlord, (+2 slots)",
-        "description": "As the sun is setting, its last beams of light shine their glow upon the bodies of these captives."
+        "date": "2021-09-13T18:00:00Z",
+        "players": "Picaroon, Rinceswind, Sleepy (+1 slot)",
+        "description": "~To be revealed~"
     },
     {
-        "date": "2021-08-26T15:00:00Z",
-        "players": "Moro, Picaroon, Rinceswind, (+1 slot)",
-        "description": "Drums of war echoes trough the land as the horrors of war rise from the shadows."
+        "date": "2021-09-18T21:00:00Z",
+        "players": "Ce'Nedra, Neeko, Warlord (+1 slot)",
+        "description": "~To be revealed~"
     },
     {
-        "date": "2021-08-27T15:00:00Z",
-        "players": "Asmordeus, Ce'Nedra, Picaroon, (+1 slot)",
+        "date": "2021-09-27T16:00:00Z",
+        "players": "Asmordeus, Moromuro, Sleepy (+1 slot)",
+        "description": "~Story to be revealed~"
+    },
+    {
+        "date": "2021-09-28T14:00:00Z",
+        "players": "Asmordeus, Moromuro (+2 slots)",
         "description": "~Story to be revealed~"
     }
 ]
