@@ -1,9 +1,18 @@
 * {
     box-sizing: border-box;
 }
+
+/*
+black 12, 3, 4
+brown 100,73,54
+l orange 249, 161,71
+orange 198, 93,2
+rorange 176, 33 ,1
+*/
   
 body {
-    background: #2B2E4D;
+    /* background: #2B2E4D; */
+    background: #131418;
     margin: 20px;
     text-align: center;
 }
@@ -14,12 +23,15 @@ body {
 }
 
 h1, h2, h3, p, span {
-    color: white;
+    /* color: white; */
+    color: rgb(198, 93, 2)
 }
 
 .card {
-    background-color: #191B2D;
-    border-color: #191B2D;
+    /* background-color: #191B2D;
+    border-color: #191B2D; */
+    background-color: rgb(12, 3, 4);
+    border-color: rgb(12, 3, 4);
     border-width: 1px;
     border-style: solid;
     border-radius: 15px;
@@ -30,12 +42,14 @@ h1, h2, h3, p, span {
 }
 
 .description-header {
-    box-shadow: 0 0 0 4px white , 0 0 0 0;
+    /* box-shadow: 0 0 0 4px white , 0 0 0 0; */
+    box-shadow: 0 0 0 4px rgb(176, 33, 1), 0 0 0 0;
     margin-top: 0px;
     max-width: 100%;
-    background-color: #161928;
+    /* background-color: #161928; */
+    background-color: rgb(12, 3, 4);;
     border-radius: 0px;
-    border-bottom: #161928;
+    border-bottom: rgb(12, 3, 4);;
     border-bottom-style: solid;
     border-bottom-width: 10px;  
 }
@@ -53,13 +67,15 @@ h1, h2, h3, p, span {
 }
 
 .timer {
-    box-shadow: 0 0 0 4px white , 0 0 0 0;
+    /* box-shadow: 0 0 0 4px white , 0 0 0 0; */
+    box-shadow: 0 0 0 4px rgb(176, 33, 1) , 0 0 0 0;
 }
 
 .bigTimerCard {
     border-style: solid;
     border: 0px;
-    border-bottom: 5px white solid;
+    /* border-bottom: 5px white solid; */
+    border-bottom: 5px rgb(176, 33, 1) solid;
     margin: 10px;
 }
 
@@ -90,8 +106,9 @@ h1, h2, h3, p, span {
 }
 
 .gameList {
-    box-shadow: 0 0 0 4px white , 0 0 0 7px #1F56A0;
-    background-color: #191B2D;
+    /* box-shadow: 0 0 0 4px white , 0 0 0 7px #1F56A0; */
+    box-shadow: 0 0 0 4px rgb(176, 33, 1) , 0 0 0 7px rgb(25, 36, 51);
+    background-color: rgb(12, 3, 4);
     max-width: 500px;
     margin: auto;
     border-radius: 10px;

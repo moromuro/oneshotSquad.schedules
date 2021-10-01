@@ -1,37 +1,72 @@
 [
     {
-        "date": "2021-09-02T17:00:00Z",
-        "players": "Neeko, Picaroon, Purple, Sleepy, Warlord",
+        "date": "2021-10-03T14:00:00Z",
+        "players": "Moro, Seiryuu, Warlord + 1",
+        "description": "2nd level. Warnings: Gore, blood, bodyparts insects"
+    },
+    {
+        "date": "2021-10-04T17:00:00Z",
+        "players": "Asmordeus, Picaroon, T-Jay + 1",
+        "description": "2nd level. Warnings: Gore, bodybarts, harm to children (already dead)"
+    },
+    {
+        "date": "2021-10-05T14:00:00Z",
+        "players": "Rinceswind, Seiryuu + 2",
+        "description": "2nd level. Warnings: Gore, bodyparts, insects."
+    },
+    {
+        "date": "2021-10-08T20:00:00Z",
+        "players": "Neeko, Picaroon, T-Jay, Warlord",
         "description": "~To be revealed~"
     },
     {
-        "date": "2021-09-06T18:30:00Z",
-        "players": "Adi. Moromuro, Picaroon, Sleepy",
-        "description": "~~Mirror realm shenanigans~~"
-    },
-    {
-        "date": "2021-09-07T15:00:00Z",
-        "players": "Moro, Purple, Sleepy (+1 slot)",
+        "date": "2021-10-13T17:00:00Z",
+        "players": "Asmordeus, Picaroon, T-Jay",
         "description": "~To be revealed~"
     },
     {
-        "date": "2021-09-11T21:00:00Z",
-        "players": "Ce'Nedra, Neeko, Warlord (+1 slot)",
-        "description": "~To be revealed~"
-    },
-    {
-        "date": "2021-09-18T21:00:00Z",
-        "players": "Ce'Nedra, Neeko, Warlord (+1 slot)",
-        "description": "~To be revealed~"
-    },
-    {
-        "date": "2021-09-27T16:00:00Z",
-        "players": "Asmordeus, Moromuro, Sleepy (+1 slot)",
+        "date": "2021-10-15T17:00:00Z",
+        "players": "Moromuro, Picaroon, T-Jay, Lucas",
         "description": "~Story to be revealed~"
     },
     {
-        "date": "2021-09-28T14:00:00Z",
-        "players": "Asmordeus, Moromuro (+2 slots)",
+        "date": "2021-10-15T20:30:00Z",
+        "players": "Neeko, Warlord + 2",
+        "description": "~Story to be revealed~"
+    },
+    {
+        "date": "2021-10-18T18:45:00Z",
+        "players": "Adi, Picaroon, T-Jay + 1",
+        "description": "~Story to be revealed~"
+    },
+    {
+        "date": "2021-10-25T18:45:00Z",
+        "players": "Adi, Picaroon, T-Jay + 1",
+        "description": "~Story to be revealed~"
+    },
+    {
+        "date": "2021-10-26T16:00:00Z",
+        "players": "Syameal, Moromuro + 2",
+        "description": "~Story to be revealed~"
+    },
+    {
+        "date": "2021-10-29T17:00:00Z",
+        "players": "Asmordeus, Moromuro, Picaroon + 1",
+        "description": "~10th level adventure, only experienced players~"
+    },
+    {
+        "date": "2021-10-29T21:30:00Z",
+        "players": "Neeko, T-Jay, Warlord + 1",
+        "description": "~Story to be revealed~"
+    },
+    {
+        "date": "2021-10-31T14:30:00Z",
+        "players": "Moromuro, Seiruyy + 2",
+        "description": "~Story to be revealed~"
+    },
+    {
+        "date": "2021-10-29T18:00:00Z",
+        "players": "T-Jay, Warlord + 2",
         "description": "~Story to be revealed~"
     }
 ]
