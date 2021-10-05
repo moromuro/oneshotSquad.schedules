@@ -132,7 +132,7 @@ class App extends React.Component {
                         <p>Players</p>
                         <p>{this.nextGame.players}</p>
                         <br></br>
-                        <p>Story</p>
+                        <p>Info</p>
                         <p>{this.nextGame.description}</p>
                     </div>
                     <br></br>
