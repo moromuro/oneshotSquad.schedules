@@ -1,67 +1,7 @@
 [
     {
-        "date": "2021-10-03T14:00:00Z",
-        "players": "Moro, Seiryuu, Warlord + 1",
-        "description": "2nd level. Warnings: Gore, blood, bodyparts insects"
-    },
-    {
-        "date": "2021-10-04T17:00:00Z",
-        "players": "Asmordeus, Picaroon, T-Jay + 1",
-        "description": "2nd level. Warnings: Gore, bodybarts, harm to children (already dead)"
-    },
-    {
-        "date": "2021-10-08T20:00:00Z",
-        "players": "Neeko, Picaroon, T-Jay, Warlord",
-        "description": "2nd level \b Warnings: Gore, bodyparts, madness."
-    },
-    {
-        "date": "2021-10-13T17:00:00Z",
-        "players": "Asmordeus, Picaroon, T-Jay",
-        "description": "5th level \b Warnings: Freezing, madness, gore, bodyparts"
-    },
-    {
-        "date": "2021-10-15T17:00:00Z",
-        "players": "Moromuro, Picaroon, T-Jay + 1",
-        "description": "5th level. Warnings: Death, Madness, Gore, Body parts, World Change."
-    },
-    {
-        "date": "2021-10-15T20:30:00Z",
-        "players": "Neeko, Warlord, Lucas + 1",
-        "description": "2nd level. WARNINGS: Gore, body parts, insects."
-    },
-    {
-        "date": "2021-10-18T18:45:00Z",
-        "players": "Adi, Picaroon, T-Jay + 1",
-        "description": "5th level. WARNINGS: Burning, madness, gore, body parts. Game on 25th will continue this."
-    },
-    {
-        "date": "2021-10-25T18:45:00Z",
-        "players": "Adi, Picaroon, T-Jay + 1",
-        "description": "5th level. WARNINGS: Burning, madness, gore, body parts. Continues game from 18th."
-    },
-    {
-        "date": "2021-10-26T16:00:00Z",
-        "players": "Syameal, Moromuro + 2",
-        "description": "6th level. WARNINGS: Death, World Change (Potential)."
-    },
-    {
-        "date": "2021-10-29T17:00:00Z",
-        "players": "Asmordeus, Moromuro, Picaroon + 1",
-        "description": "10th level adventure, WARNINGS: Destruction, World Change (Potential), DOOM"
-    },
-    {
-        "date": "2021-10-29T21:30:00Z",
-        "players": "Neeko, T-Jay, Warlord, Seiryuu",
-        "description": "6th level. WARNINGS: Corruption, Insects, Violent Death, Gore, Body Parts, World Change."
-    },
-    {
-        "date": "2021-10-31T14:30:00Z",
-        "players": "Moromuro, Seiryuu + 2",
-        "description": "6th level. WARNINGS: Death, Curse, World Change, Torment."
-    },
-    {
-        "date": "2021-10-31T18:00:00Z",
-        "players": "T-Jay, Warlord, Wagz + 1",
-        "description": "6th level. WARNINGS: Death, Curse, World Change, Torment."
+        "date": "2021-11-10T00:00:00Z",
+        "players": "~~Everyone~~",
+        "description": "Estimated eadline to submit availabilities."
     }
 ]
