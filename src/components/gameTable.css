@@ -16,6 +16,6 @@
 }
 
 .middleRow {
-    /* border-bottom: 2px white dotted; */
-    border-bottom: 2px rgb(198, 93, 2) dotted;
+    border-bottom: 2px white dotted;
+    /* border-bottom: 2px rgb(198, 93, 2) dotted; */
 }
