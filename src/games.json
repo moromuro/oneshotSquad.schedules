@@ -11,17 +11,17 @@
     },
     {
         "date": "2021-11-26T08:00:00Z",
-        "players": "Lucas, Neeko, +2",
-        "description": "~~Story to be revealed~~"
+        "players": "Neeko, Warlord +2",
+        "description": "The Hour of Law 2: Troublesome Words"
     },
     {
         "date": "2021-11-27T10:00:00Z",
-        "players": "Asmordeus, Warlord, +2",
-        "description": "~~Story to be revealed~~"
+        "players": "Asmordeus, Warlord, Seiryuu, Ce'Nedra +2",
+        "description": "Unravel 2: The Stygian Spear"
     },
     {
         "date": "2021-12-03T08:00:00Z",
-        "players": "Lucas, Neeko, +2",
+        "players": "Neeko, +3",
         "description": "~~Story to be revealed~~"
     },
     {
@@ -36,7 +36,7 @@
     },
     {
         "date": "2021-12-11T10:00:00Z",
-        "players": "Asmordeus, Moro, Warlord, +1",
+        "players": "Asmordeus, Moro, Warlord, Ce'Nedra",
         "description": "~~Story to be revealed~~"
     }
 ]
