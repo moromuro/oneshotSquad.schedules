@@ -19,11 +19,17 @@ class App extends React.Component {
             startTime: 0,
             timer: null,
             duration: 0,
+            formattedMainText: '',
+            formattedUTCText: ''
         }
         this.startTimer = this.start.bind(this);
         this.nextGame = [];
     }
 
+    /**
+     *
+     * @param {*} duration
+     */
     msToTime(duration) {
         let milliseconds = parseInt((duration % 1000));
         let seconds = Math.floor((duration / 1000) % 60);
@@ -42,7 +48,55 @@ class App extends React.Component {
           milliseconds
         };
     }
- 
+
+    /**
+     *
+     * @param {*} number
+     */
+    addFrontZero(number) {
+        if (number < 10) {
+            return `0${number}`;
+        } else {
+            return `${number}`;
+        }
+    }
+
+    /**
+     *
+     */
+    formatTime(stringDate, utc = false) {
+        let date = new Date(stringDate);
+        const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+        let day;
+        let dayNmb;
+        let monthNmb;
+        let yearNmb;
+
+        let hours;
+        let minutes;
+
+        if (!utc) {
+            day = days[date.getDay()];
+            dayNmb = date.getDate();
+            monthNmb = date.getMonth() + 1;
+            yearNmb =date.getFullYear();
+            hours = this.addFrontZero(date.getHours());
+            minutes = this.addFrontZero(date.getMinutes());
+        } else {
+            day = days[date.getUTCDay()];
+            dayNmb = date.getUTCDate();
+            monthNmb = date.getUTCMonth() + 1;
+            yearNmb = date.getUTCFullYear();
+            hours = this.addFrontZero(date.getUTCHours());
+            minutes = this.addFrontZero(date.getUTCMinutes());
+        }
+
+        return `${day} ${hours}:${minutes} - ${dayNmb}.${monthNmb}.${yearNmb}`;
+    }
+
+    /**
+     *
+     */
     start() {
         if (this.nextGame.length === 0) {
             
@@ -73,8 +127,14 @@ class App extends React.Component {
             this.state.duration = new Date(this.nextGame.date).getTime() - Date.now();
             this.timer = window.setInterval(() => this.run(), 1000);
         }
+
+        this.formattedMainText = this.formatTime(this.nextGame.date, false);
+        this.formattedUTCText = this.formatTime(this.nextGame.date, true);
     }
 
+    /**
+     *
+     */
     run() {
         const diff = Date.now() - this.state.startTime;
         
@@ -95,12 +155,9 @@ class App extends React.Component {
         }
     }
 
-    renderGameTable() {
-        return(
-            <GameTable />
-        )
-    }
-
+    /**
+     *
+     */
     render() {
         return (
             <div className="App">
@@ -122,11 +179,13 @@ class App extends React.Component {
                         </p>
                     </div>
                     <div className="timerInfo"> 
-                        <p className="timerText1"><strong>{new Date(this.nextGame.date).toLocaleString('en-gb', { dateStyle: 'medium', timeStyle: 'long'})}</strong></p>
+                        <p className="timerText1"><strong>{this.formattedMainText}</strong></p>
                         <span className="infoText">Your timezone: {Intl.DateTimeFormat().resolvedOptions().timeZone}</span>
                         <br></br>
-                        <p className="timerText2">{new Date(this.nextGame.date).toUTCString()}</p>
+                        <p className="timerText2">{this.formattedUTCText}</p>
                         <span className="infoText">UTC time</span>
+                        <br></br>
+                        <p>Duration: {this.nextGame.duration}</p>
                         <br></br>
                         <br></br>
                         <p>Players</p>
@@ -134,9 +193,9 @@ class App extends React.Component {
                         <br></br>
                         <p>Info</p>
                         <p>{this.nextGame.description}</p>
+                        <br></br>
                     </div>
                     <br></br>
-                    
                     <br></br>
                 </div>
 
@@ -144,7 +203,7 @@ class App extends React.Component {
                     <div className="middleBreak">
                         <h2 id="comingGames">Upcoming games</h2>
                     </div>
-                    {this.renderGameTable()}
+                    <GameTable />
                 </div>
                 <div style={{ height: '100px' }} />
                 
