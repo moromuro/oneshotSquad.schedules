@@ -66,7 +66,7 @@ class App extends React.Component {
         } else {
             const userTime = FormatTime(this.nextGame.date, this.nextGame.duration, false);
             const UTCTime = FormatTime(this.nextGame.date, this.nextGame.duration, true);
-            this.formattedMainText = userTime.mainText;
+            this.formattedMainText = `${userTime.day} ${userTime.mainText}`;
             this.formattedSecondText = userTime.secondText;
             this.formattedUTCText = UTCTime.mainText;
             this.formattedUTCSecondText = UTCTime.secondText;
@@ -129,23 +129,28 @@ class App extends React.Component {
                         </p>
                     </div>
                     <div className="timerInfo"> 
-                        <p className="timerText1"><strong>{this.formattedMainText}</strong></p>
+                        <p className="timerText1">
+                            <strong>{this.formattedMainText}</strong>
+                        </p>
                         <p className="timerText2">{this.formattedSecondText}</p>
-                        <span className="infoText">Your timezone: {Intl.DateTimeFormat().resolvedOptions().timeZone}</span>
-                        <br></br>
-                        <p className="timerText2">{this.formattedUTCText}</p>
-                        <p className="timerText2">{this.formattedUTCSecondText}</p>
-                        <span className="infoText">UTC time</span>
-                        <br></br>
+                        <p className="infoText">Your timezone: {Intl.DateTimeFormat().resolvedOptions().timeZone}</p>
+                        <br/>
+                        <p className="infoText">
+                            UTC Time
+                            <br/>
+                            {this.formattedUTCText}
+                            <br/>
+                            {this.formattedUTCSecondText}
+                        </p>
+                        <br/>
                         <p>Duration: {this.nextGame.duration}</p>
-                        <br></br>
-                        <br></br>
+                        <br/>
                         <p>Players</p>
                         <p>{this.nextGame.players}</p>
-                        <br></br>
+                        <br/>
                         <p>Info</p>
                         <p>{this.nextGame.description}</p>
-                        <br></br>
+                        <br/>
                     </div>
                     <br></br>
                     <br></br>

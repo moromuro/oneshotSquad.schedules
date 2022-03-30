@@ -20,15 +20,23 @@ class GameTable extends React.Component {
 
                     rows.push(
                         <div key={index} className="gameCard">
-                            <h1 className="userTime">{userTime.mainText}</h1>
+                            <h1 className="userTime">
+                                {userTime.day}
+                                <br/>
+                                {userTime.mainText}
+                            </h1>
                             <h2>{userTime.secondText}</h2>
                             <p>{UTCTime.mainText} {UTCTime.secondText}</p>
                             <br/>
-                            <p>{game.duration}</p>
-                            <br/>
-                            <p>{game.players}</p>
-                            <br/>
-                            <p>{game.description}</p>
+                            <p>Duration: {game.duration}</p>
+                            <p>
+                                Players <br/>
+                                {game.players}
+                            </p>
+                            <p>
+                                Info <br/>
+                                {game.description}
+                            </p>
                         </div>
                     );
                 } else {
@@ -37,15 +45,25 @@ class GameTable extends React.Component {
 
                     rows.push(
                         <div key={index} className="gameCard middleRow">
-                            <h1 className="userTime">{userTime.mainText}</h1>
+                            <h1 className="userTime">
+                                {userTime.day}
+                                <br/>
+                                {userTime.mainText}
+                            </h1>
                             <h2>{userTime.secondText}</h2>
                             <p>{UTCTime.mainText} {UTCTime.secondText}</p>
                             <br/>
-                            <p>{game.duration}</p>
+                            <p>Duration: {game.duration}</p>
                             <br/>
-                            <p>{game.players}</p>
+                            <p>
+                                Players <br/>
+                                {game.players}
+                            </p>
                             <br/>
-                            <p>{game.description}</p>
+                            <p>
+                                Info <br/>
+                                {game.description}
+                            </p>
                         </div>
                     );
                 }

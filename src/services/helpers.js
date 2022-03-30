@@ -55,7 +55,8 @@ export function FormatTime(stringDate, duration, utc = false) {
   }
 
   return {
-      mainText: `${day} ${hours}:${minutes} - ${parseInt(hours, 10) + parseInt(duration, 10)}:${minutes}`,
+      day: `${day}`,
+      mainText: `${hours}:${minutes} - ${parseInt(hours, 10) + parseInt(duration, 10)}:${minutes}`,
       secondText: `${dayNmb}.${monthNmb}.${yearNmb}`
   }
 }
