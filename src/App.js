@@ -1,7 +1,7 @@
 import React from 'react';
 import { hot } from 'react-hot-loader';
 import './App.css';
-import { FormatTime } from './services/helpers';
+import { FormatTime, MsToTime } from './services/helpers';
 
 import GameTable from './components/gameTable';
 import GAMES from './games.json';
@@ -31,35 +31,11 @@ class App extends React.Component {
 
     /**
      *
-     * @param {*} duration
-     */
-    msToTime(duration) {
-        let milliseconds = parseInt((duration % 1000));
-        let seconds = Math.floor((duration / 1000) % 60);
-        let minutes = Math.floor((duration / (1000 * 60)) % 60);
-        let hours = Math.floor(duration / (1000 * 60 * 60));
-
-        hours = hours.toString().padStart(2, '0');
-        minutes = minutes.toString().padStart(2, '0');
-        seconds = seconds.toString().padStart(2, '0');
-        milliseconds = milliseconds.toString().padStart(3, '0');
-    
-        return {
-          hours,
-          minutes,
-          seconds,
-          milliseconds
-        };
-    }
-
-    /**
-     *
      */
     start() {        
         let i = 0;
         let found = false;
         while (!found) {
-        
             if (i === GAMES.length) {
                 break;
             }
@@ -87,13 +63,22 @@ class App extends React.Component {
             };
 
             this.state.timer = '0:0:0';
-        } else if (!this.state.timer) {
-            /**
-             * Set the timer from the point of opening the site while staying there.
-             */ 
-            this.state.startTime = Date.now();
-            this.state.duration = new Date(this.nextGame.date).getTime() - Date.now();
-            this.timer = window.setInterval(() => this.run(), 1000);
+        } else {
+            const userTime = FormatTime(this.nextGame.date, this.nextGame.duration, false);
+            const UTCTime = FormatTime(this.nextGame.date, this.nextGame.duration, true);
+            this.formattedMainText = userTime.mainText;
+            this.formattedSecondText = userTime.secondText;
+            this.formattedUTCText = UTCTime.mainText;
+            this.formattedUTCSecondText = UTCTime.secondText;
+
+            if (!this.state.timer) {
+                /**
+                 * Set the timer from the point of opening the site while staying there.
+                 */ 
+                this.state.startTime = Date.now();
+                this.state.duration = new Date(this.nextGame.date).getTime() - Date.now();
+                this.timer = window.setInterval(() => this.run(), 1000);
+            }
         }
     }  
 
@@ -111,7 +96,7 @@ class App extends React.Component {
         }
         
         this.setState(() => ({
-          time: this.msToTime(remaining)
+          time: MsToTime(remaining)
         }));
 
         if (remaining === 0) {
