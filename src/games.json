@@ -1,26 +1,44 @@
 [
     {
-        "date": "2022-03-08T14:00:00Z",
-        "duration": "3h 15m",
-        "players": "Lucas, Purple, Syameal",
+        "date": "2022-04-07T15:00:00Z",
+        "duration": "4h",
+        "players": "Asmordeus, Moro, Rince",
         "description": "~~"
     },
     {
-        "date": "2022-03-11T14:00:00Z",
-        "duration": "5h",
-        "players": "Asmordeus, Moro, Syameal, Warlord",
+        "date": "2022-04-09T20:00:00Z",
+        "duration": "3h 30m",
+        "players": "Ce'Nedra, T-Jay, Warlord",
         "description": "~~"
     },
     {
-        "date": "2022-03-25T14:00:00Z",
+        "date": "2022-04-13T15:00:00Z",
+        "duration": "4h",
+        "players": "Asmordeus, Moro, Rince",
+        "description": "~~"
+    },
+    {
+        "date": "2022-04-14T13:00:00.000Z",
         "duration": "3h",
-        "players": "Lucaaaas, Syameal",
+        "players": "Neeko, Syameal",
         "description": "~~"
     },
     {
-        "date": "2022-03-31T15:00:00.000Z",
+        "date": "2022-04-15T16:30:00.000Z",
         "duration": "3h",
-        "players": "Asmordeus, Moro, Syameal, Purple",
-        "description": "Storm King's Arena. All will enter but only the \"lucky\" will leave."
+        "players": "ce'Nedra, Seiryuu",
+        "description": "~~"
+    },
+    {
+        "date": "2022-04-15T20:00:00.000Z",
+        "duration": "3h 30m",
+        "players": "Ce'Nedra, Purple, T-Jay",
+        "description": "~~"
+    },
+    {
+        "date": "2022-04-18T11:00:00.000Z",
+        "duration": "3h",
+        "players": "Neeko, Purple, Syameal, Warlord",
+        "description": "~~"
     }
 ]
