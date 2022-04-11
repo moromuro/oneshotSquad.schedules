@@ -14,31 +14,31 @@
     {
         "date": "2022-04-13T15:00:00Z",
         "duration": "4h",
-        "players": "Asmordeus, Moro, Rince",
-        "description": "~~"
+        "players": "Asmordeus, Moro, Rince, Syameal",
+        "description": "The Ice Storm vol 2: Electric boogaloo!"
     },
     {
         "date": "2022-04-14T13:00:00.000Z",
         "duration": "3h",
-        "players": "Neeko, Syameal",
-        "description": "~~"
+        "players": "Neeko, Syameal, Lucas",
+        "description": "The Curse in disguise"
     },
     {
         "date": "2022-04-15T16:30:00.000Z",
         "duration": "3h",
-        "players": "ce'Nedra, Seiryuu",
-        "description": "~~"
+        "players": "Ce'Nedra, Seiryuu",
+        "description": "Call of the void"
     },
     {
         "date": "2022-04-15T20:00:00.000Z",
         "duration": "3h 30m",
-        "players": "Ce'Nedra, Purple, T-Jay",
-        "description": "~~"
+        "players": "Ce'Nedra, Seiryuu, T-Jay",
+        "description": "Green fever"
     },
     {
         "date": "2022-04-18T11:00:00.000Z",
         "duration": "3h",
-        "players": "Neeko, Purple, Syameal, Warlord",
-        "description": "~~"
+        "players": "Neeko, Adi, Warlord",
+        "description": "~tbd~"
     }
 ]
