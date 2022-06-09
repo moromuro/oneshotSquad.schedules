@@ -42,7 +42,7 @@ export function FormatTime(stringDate, duration, utc = false) {
       day = days[date.getDay()];
       dayNmb = date.getDate();
       monthNmb = date.getMonth() + 1;
-      yearNmb =date.getFullYear();
+      yearNmb = date.getFullYear();
       hours = addFrontZero(date.getHours());
       minutes = addFrontZero(date.getMinutes());
   } else {
@@ -56,7 +56,7 @@ export function FormatTime(stringDate, duration, utc = false) {
 
   return {
       day: `${day}`,
-      mainText: `${hours}:${minutes} - ${parseInt(hours, 10) + parseInt(duration, 10)}:${minutes}`,
+      mainText: `${hours}:${minutes} - ${addFrontZero(parseInt(hours, 10) + parseInt(duration, 10))}:${minutes}`,
       secondText: `${dayNmb}.${monthNmb}.${yearNmb}`
   }
 }

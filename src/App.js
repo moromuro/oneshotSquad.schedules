@@ -114,7 +114,7 @@ class App extends React.Component {
                 {this.startTimer()}
                 <div className="description-header card">
                     <h1 id="header-headline-1"> GMT ONESHOT SQUAD</h1>
-                    <p id="header-text-1">Adventures in the World of Bal'Morel,<br/>brought to you by DM Zaeryss.</p>
+                    <p id="header-text-1">Adventures in the World of Balor,<br/>brought to you by DM Zaeryss.</p>
                     <p id="header-text-2">With possible issues regarding the site,<br/> contact Moro on discord.</p>
                 </div>
                 <div className="timer card">
