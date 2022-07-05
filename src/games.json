@@ -1,50 +1,50 @@
 [
     {
-        "date": "2022-06-11T02:00:00Z",
-        "duration": "4h",
-        "players": "Lucas, Purple, Knightmare",
-        "description": "~~"
-    },
-    {
-        "date": "2022-06-11T09:00:00Z",
-        "duration": "3h",
-        "players": "Asmordeus, Kit, Moromuro, Seiryuu",
-        "description": "~~"
-    },
-    {
-        "date": "2022-06-12T09:00:00Z",
-        "duration": "3h",
-        "players": "Asmordeus, Kit, Moromuro, Seiryuu",
-        "description": "~~"
-    },
-    {
-        "date": "2022-06-17T09:00:00Z",
-        "duration": "3h",
-        "players": "Lucas Neeko Syameal (1 Open slots)",
-        "description": "~~"
-    },
-    {
-        "date": "2022-06-25T04:00:00Z",
+        "date": "2022-07-09T07:00:00Z",
         "duration": "5h",
-        "players": "Lucas Neeko Purple (2 Open Slots)",
-        "description": "~~"
+        "players": "Moromuro, Rinceswind, Seiryuu, Warlord",
+        "description": "~what is this duration~"
     },
     {
-        "date": "2022-06-26T05:00:00Z",
+        "date": "2022-07-10T08:00:00Z",
         "duration": "4h",
-        "players": "Neeko Purple Syameal",
+        "players": "Lzy, Moromuro, Rinceswind, Warlord",
         "description": "~~"
     },
     {
-        "date": "2022-06-30T07:30:00Z",
-        "duration": "4 ½h",
-        "players": "Rinceswind Syameal (2 open slots)",
+        "date": "2022-07-13T11:00:00Z",
+        "duration": "3h",
+        "players": "LZY, Neeko, Seiryuu, Syameal",
         "description": "~~"
     },
     {
-        "date": "2022-07-01T07:30:00Z",
+        "date": "2022-07-14T05:30:00Z",
         "duration": "4 ½h",
-        "players": "Neeko Rinceswind (2 open slots)",
+        "players": "Adi, LZY, Syameal + 1",
+        "description": "~~"
+    },
+    {
+        "date": "2022-07-19T09:00:00Z",
+        "duration": "3h",
+        "players": "Adu, Ce'Nedra, Neeko, Syameal",
+        "description": "~~"
+    },
+    {
+        "date": "2022-07-23T09:00:00Z",
+        "duration": "3h",
+        "players": "Asmordeus, Moromuro, Syameal, Warlord",
+        "description": "~~"
+    },
+    {
+        "date": "2022-07-24T09:00:00Z",
+        "duration": "3h",
+        "players": "Asmordeus, LZY, Moromuro, Warlord",
+        "description": "~~"
+    },
+    {
+        "date": "2022-07-28T09:00:00Z",
+        "duration": "3h",
+        "players": "Adi, Ce'Nedra, Neeko, Syameal",
         "description": "~~"
     }
 ]
