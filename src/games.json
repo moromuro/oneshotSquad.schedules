@@ -1,50 +1,62 @@
 [
     {
-        "date": "2022-07-09T07:00:00Z",
-        "duration": "5h",
-        "players": "Moromuro, Rinceswind, Seiryuu, Warlord",
-        "description": "~what is this duration~"
-    },
-    {
-        "date": "2022-07-10T08:00:00Z",
+        "date": "2022-10-08T8:00:00Z",
         "duration": "4h",
-        "players": "Lzy, Moromuro, Rinceswind, Warlord",
-        "description": "~~"
+        "players": "Asmordeus, Oana, Warlord (+1 slot)",
+        "description": "lvl 2 characters"
     },
     {
-        "date": "2022-07-13T11:00:00Z",
+        "date": "2022-10-09T08:00:00Z",
+        "duration": "4h",
+        "players": "Asmordeus, Picaroon, Purple, Rinceswind",
+        "description": "lvl 10 characters"
+    },
+    {
+        "date": "2022-10-16T05:30:00Z",
+        "duration": "5h",
+        "players": "Neeko, Oana, Picaroon, Warlord",
+        "description": "Depends on game on 8th"
+    },
+    {
+        "date": "2022-10-18T09:00:00Z",
         "duration": "3h",
-        "players": "LZY, Neeko, Seiryuu, Syameal",
-        "description": "~~"
+        "players": "Adi, Rinceswind (+2 slots)",
+        "description": "~TBA~"
     },
     {
-        "date": "2022-07-14T05:30:00Z",
-        "duration": "4 ½h",
-        "players": "Adi, LZY, Syameal + 1",
-        "description": "~~"
+        "date": "2022-10-19T01:00:00Z",
+        "duration": "4h",
+        "players": "Knightmare, Syameal, (+2 slots)",
+        "description": "~TBA~"
     },
     {
-        "date": "2022-07-19T09:00:00Z",
+        "date": "2022-10-20T11:00:00Z",
         "duration": "3h",
-        "players": "Adi, Ce'Nedra, Purple, Syameal",
-        "description": "~~"
+        "players": "Ce'Nedra, Lucas, Rinceswind, (+1 slot)",
+        "description": "~TBA~"
     },
     {
-        "date": "2022-07-23T09:00:00Z",
+        "date": "2022-10-22T01:00:00Z",
         "duration": "3h",
-        "players": "Asmordeus, Moromuro, Warlord (+1 open slot)",
-        "description": "~~"
+        "players": "Lucas, Neeko, Syameal, (+1 slot)",
+        "description": "~TBA~"
     },
     {
-        "date": "2022-07-24T09:00:00Z",
-        "duration": "3h",
-        "players": "Asmordeus, Moromuro, Warlord (+1 open slot)",
-        "description": "~~"
+        "date": "2022-10-23T06:00:00Z",
+        "duration": "5h",
+        "players": "Neeko, Picaroon, Purple (+1 slot)",
+        "description": "lvl 10 characters"
     },
     {
-        "date": "2022-07-28T09:00:00Z",
+        "date": "2022-10-26T01:00:00Z",
+        "duration": "4h",
+        "players": "Knightmare, Syameal, (+2 slots)",
+        "description": "Continues Game from 18th"
+    },
+    {
+        "date": "2022-10-29T01:00:00Z",
         "duration": "3h",
-        "players": "Adi, Ce'Nedra, Syameal (+1 open slot)",
-        "description": "~~"
+        "players": "Lucas, Neeko, Syameal, (+1 slot)",
+        "description": "Continues from the 21st/22nd"
     }
 ]
