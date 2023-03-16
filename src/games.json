@@ -1,50 +1,50 @@
 [
     {
-        "date": "2022-11-08T11:00:00Z",
+        "date": "2023-03-18T15:00:00Z",
+        "duration": "3h",
+        "players": "Asmordeus, Ce'Nedra, Moromuro, Neeko",
+        "description": "PF - Beginners run 1"
+    },
+    {
+        "date": "2023-03-19T13:00:00Z",
         "duration": "4h",
-        "players": "Ce'Nedra, Lucas, Syameal (+1 slot)",
-        "description": "Mountain Mania - lvl 9"
+        "players": "Asmordeus, Nekko, Oana, Purple",
+        "description": "DnD - Ajay's Anger P1"
     },
     {
-        "date": "2022-11-12T03:30:00Z",
+        "date": "2023-03-21T19:00:00Z",
         "duration": "3h",
-        "players": "Moro, Picaroon, Purple, Rinceswind",
-        "description": "Capital Conflict - lvl 8"
+        "players": "Ce'Nedra, T-Jay, Wagz (open slot)",
+        "description": "PF - Beginners run 2"
     },
     {
-        "date": "2022-11-13T03:30:00Z",
-        "duration": "3h 30m",
-        "players": "Moro, Neeko, Purple, rinceswind",
-        "description": "Capital 2: Panic Boogaloo - lvl 8"
+        "date": "2023-03-24T19:00:00Z",
+        "duration": "3½h",
+        "players": "Asmordeus, T-Jay, Wagz, Purple",
+        "description": "PF - Beginners run 3"
     },
     {
-        "date": "2022-11-15T23:00:00Z",
+        "date": "2023-03-25T13:00:00Z",
+        "duration": "4h",
+        "players": "Asmordeus, Nekko, Oana, Syameal",
+        "description": "DnD - Ajay's Anger P2"
+    },
+    {
+        "date": "2023-03-26T14:00:00Z",
         "duration": "3h",
-        "players": "Syameal, T-Jay, (+´2 slots)",
-        "description": "Strange Connection - lvl 8"
+        "players": "Asmordeus, Moromuro, Oana (Open slot)",
+        "description": "DnD - Ajay's Anger P3"
     },
     {
-        "date": "2022-11-19T23:00:00Z",
+        "date": "2023-03-28T20:00:00Z",
         "duration": "3h",
-        "players": "Neeko, T-Jay, Warlord, (+1 slot)",
-        "description": "Gloom Glimmering"
+        "players": "Ce'Nedra, T-Jay, Wagz (open slot)",
+        "description": "PF - Beginners run 4"
     },
     {
-        "date": "2022-11-20T08:00:00Z",
-        "duration": "3h 30m",
-        "players": "Moro, Neeko, Picaroon, Purple",
-        "description": "Capital 3: Look for Free - lvl 8"
-    },
-    {
-        "date": "2022-11-27T01:00:00Z",
-        "duration": "5h",
-        "players": "Neeko, Warlord, (+2 slots)",
-        "description": "Fey Foulness"
-    },
-    {
-        "date": "2022-11-27T08:00:00Z",
-        "duration": "3h 30m",
-        "players": "Moro, Neeko, Picaroon, Purple",
-        "description": "Capital 4: Night of Terror - lvl 8"
+        "date": "2023-03-31T17:00:00Z",
+        "duration": "3h",
+        "players": "Asmordeus, Ce'Nedra, Moromuro, Warlord",
+        "description": "DnD - Meeting of the Minds"
     }
 ]
