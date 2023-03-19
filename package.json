@@ -21,7 +21,7 @@
   "homepage": "https://oneshotsquad.info",
   "dependencies": {
     "prop-types": "^15.7.2",
-    "react": "^16.5.2",
+    "react": "^16.14.0",
     "react-dom": "^16.5.2",
     "react-grid-system": "^7.2.0",
     "react-hot-loader": "^4.3.11"
@@ -34,7 +34,7 @@
     "@babel/preset-react": "^7.0.0",
     "css-loader": "^6.5.1",
     "gh-pages": "^3.2.3",
-    "react-scripts": "^5.0.0",
+    "react-scripts": "^5.0.1",
     "style-loader": "^0.23.0",
     "webpack-cli": "^4.9.2"
   },
