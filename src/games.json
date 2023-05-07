@@ -1,128 +1,92 @@
 [
     {
-        "date": "2023-04-06T15:00:00Z",
+        "date": "2023-05-08T15:30:00Z",
         "duration": "4h",
-        "players": "Ce, Ela, Fire, Warlord",
-        "description": "5e"
+        "players": "Eru, Folo, Purple, Arteest76",
+        "description": "5e - continued on 10th"
     },
     {
-        "date": "2023-04-07T13:00:00Z",
-        "duration": "3h",
-        "players": "As, Lucas, Neeko, Rince",
-        "description": "5e"
+        "date": "2023-05-10T15:30:00Z",
+        "duration": "4h",
+        "players": "Eru, Folo, Purple, Arteest76",
+        "description": "5e - continued on 24th"
     },
     {
-        "date": "2023-04-08T19:00:00Z",
-        "duration": "3h",
-        "players": "Folo, Purple, Sammi, Tom",
+        "date": "2023-05-10T23:00:00Z",
+        "duration": "4h",
+        "players": "Furret, Maxx, Sammi, Salador",
         "description": "Pf2e"
     },
     {
-        "date": "2023-04-09T13:30:00Z",
+        "date": "2023-05-12T13:00:00Z",
         "duration": "4h",
-        "players": " Alex, As, Rince, OPEN SLOT",
-        "description": "5e"
-    },
-    {
-        "date": "2023-04-11T19:00:00Z",
-        "duration": "3h",
-        "players": " Adi, Purple, T-J, Tom",
-        "description": "5e"
-    },
-    {
-        "date": "2023-04-12T00:00:00Z",
-        "duration": "4h",
-        "players": " Alex, Salad, Sammi, OPEN SLOT",
+        "players": "Luz, Maxx, Neeko, JerEvergarden",
         "description": "Pf2e"
     },
     {
-        "date": "2023-04-13T23:00:00Z",
-        "duration": "3h",
-        "players": "Folo, Maxx, Pipe, OPEN SLOT",
+        "date": "2023-05-12T23:00:00Z",
+        "duration": "4h",
+        "players": "Firefan, Furret, Pipe, Sammi",
+        "description": "Pf2e"
+    },
+    {
+        "date": "2023-05-13T13:00:00Z",
+        "duration": "4h",
+        "players": "Eru, Moofal, Neeko, Warlord",
         "description": "5e - continued on 14th"
     },
     {
-        "date": "2023-04-14T16:00:00Z",
-        "duration": "3h",
-        "players": "As, Ce, Furret, Moofal",
-        "description": "Pf2e"
-    },
-    {
-        "date": "2023-04-14T23:00:00Z",
-        "duration": "3h",
-        "players": "Fire, Folo, Maxx, Pipe",
-        "description": "5e - continued from 13th"
-    },
-    {
-        "date": "2023-04-14T23:00:00Z",
-        "duration": "3h",
-        "players": "Fire, Folo, Maxx, Pipe",
-        "description": "5e - continued from 13th"
-    },
-    {
-        "date": "2023-04-15T13:00:00Z",
-        "duration": "3h",
-        "players": "Lucas, Moofal, Neeko, Sei",
-        "description": "Pf2e"
-    },
-    {
-        "date": "2023-04-16T13:00:00Z",
+        "date": "2023-05-14T00:00:00Z",
         "duration": "4h",
-        "players": "As, Maxx, Sei, OPEN SLOT",
+        "players": "Firefan, Maxx, Neeko, (+1 open slot)",
+        "description": "Pf2e"
+    },
+    {
+        "date": "2023-05-14T13:30:00Z",
+        "duration": "4h",
+        "players": "Eru, Moofal, Purple, Warlolrd",
         "description": "5e"
     },
     {
-        "date": "2023-04-18T18:00:00Z",
-        "duration": "3h",
-        "players": " Alex, Purple, Tom, OPEN SLOT",
+        "date": "2023-05-17T19:30:00Z",
+        "duration": "4h",
+        "players": "Furret, Purple, Tom, (+1 open slot)",
+        "description": "Pf2e"
+    },
+    {
+        "date": "2023-05-19T18:30:00Z",
+        "duration": "4h",
+        "players": "Firefan, Luz, Pipe, Tom",
         "description": "5e"
     },
     {
-        "date": "2023-04-19T19:30:00Z",
+        "date": "2023-05-20T13:00:00Z",
         "duration": "4h",
-        "players": " Folo, Furret, Wagz, OPEN SLOT",
-        "description": "Pf2e"
-    },
-    {
-        "date": "2023-04-21T19:00:00Z",
-        "duration": "3h",
-        "players": " Ce, Fire, Furret, Wagz",
-        "description": "Pf2e"
-    },
-    {
-        "date": "2023-04-22T00:00:00Z",
-        "duration": "3h",
-        "players": " Alex, Jug, Neeko, T-Jay",
+        "players": "Folo, Neeko, Warlord, (+1 open slot)",
         "description": "5e"
     },
     {
-        "date": "2023-04-22T21:30:00Z",
-        "duration": "3h",
-        "players": "Fire, Salad, Sammi, OPEN SLOT",
+        "date": "2023-05-22T18:00:00Z",
+        "duration": "4h",
+        "players": "Firefan, Moofal, Tom, (+1 open slot)",
         "description": "Pf2e"
     },
     {
-        "date": "2023-04-25T23:00:00Z",
-        "duration": "3h",
-        "players": "Furret, Pipe, Wagz, OPEN SLOT",
-        "description": "Pf2e - continued on 26th"
-    },
-    {
-        "date": "2023-04-26T23:00:00Z",
-        "duration": "3h",
-        "players": "Furret, Pipe, Wagz, OPEN SLOT",
-        "description": "Pf2e - continued from 26th"
-    },
-    {
-        "date": "2023-04-28T19:30:00Z",
+        "date": "2023-05-24T16:00:00Z",
         "duration": "4h",
-        "players": "Warlord, Maxx, Fire, OPEN SLOT",
-        "description": "Pf2e"
+        "players": "Eru, Folo, Purple, Arteest76",
+        "description": "5e - continued from 10th"
     },
     {
-        "date": "2023-04-30T00:00:00Z",
+        "date": "2023-05-27T00:00:00Z",
         "duration": "4h",
-        "players": "Sei, Jug, Neeko, OPEN SLOT",
+        "players": "Luz, Neeko, Pipe, Firefan",
         "description": "5e"
+    },
+    {
+        "date": "2023-05-29T18:00:00Z",
+        "duration": "4h",
+        "players": "Moofal, Purple, Tom, (+1 open slot)",
+        "description": "Pf2e"
     }
 ]
