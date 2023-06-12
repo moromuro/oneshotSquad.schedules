@@ -1,92 +1,62 @@
 [
     {
-        "date": "2023-05-08T15:30:00Z",
-        "duration": "4h",
-        "players": "Eru, Folo, Purple, Arteest76",
-        "description": "5e - continued on 10th"
+        "date": "2023-06-12T23:00:00Z",
+        "duration": "3h 30m",
+        "players": "Leadpipe, SteelUrMind, Syameal, Ragnas",
+        "description": "FIST: Ultra"
     },
     {
-        "date": "2023-05-10T15:30:00Z",
-        "duration": "4h",
-        "players": "Eru, Folo, Purple, Arteest76",
-        "description": "5e - continued on 24th"
+        "date": "2023-06-16T15:30:00Z",
+        "duration": "3h 30m",
+        "players": "Asmordeus, Eru, Moro, Purple",
+        "description": "Armour Astir Advent"
     },
     {
-        "date": "2023-05-10T23:00:00Z",
-        "duration": "4h",
-        "players": "Furret, Maxx, Sammi, Salador",
-        "description": "Pf2e"
+        "date": "2023-06-16T23:00:00Z",
+        "duration": "3h",
+        "players": "FoLo, Ketch, SteelUrMind, T-Jay",
+        "description": "Monster of the Week"
     },
     {
-        "date": "2023-05-12T13:00:00Z",
+        "date": "2023-06-17T18:00:00Z",
         "duration": "4h",
-        "players": "Luz, Maxx, Neeko, JerEvergarden",
-        "description": "Pf2e"
+        "players": " Eru, Ketch, Purple, SteelUrMind",
+        "description": "Armour Astir Advent"
     },
     {
-        "date": "2023-05-12T23:00:00Z",
-        "duration": "4h",
-        "players": "Firefan, Furret, Pipe, Sammi",
-        "description": "Pf2e"
+        "date": "2023-06-19T23:00:00Z",
+        "duration": "3h 30m",
+        "players": "Ketch, Leadpipe, SteelUrMind, Syameal",
+        "description": "Mask: a new generation"
     },
     {
-        "date": "2023-05-13T13:00:00Z",
-        "duration": "4h",
-        "players": "Eru, Moofal, Neeko, Warlord",
-        "description": "5e - continued on 14th"
+        "date": "2023-06-20T23:00:00Z",
+        "duration": "3h 30m",
+        "players": " Ketch, Leadpipe, SteelUrMind, Syameal",
+        "description": "Mask: a new generation, cont from 19th"
     },
     {
-        "date": "2023-05-14T00:00:00Z",
-        "duration": "4h",
-        "players": "Firefan, Maxx, Neeko, (+1 open slot)",
-        "description": "Pf2e"
+        "date": "2023-06-21T13:00:00Z",
+        "duration": "3h",
+        "players": "Ce'Nedra, Neeko, Salad, Syameal",
+        "description": "FIST: Ultra"
     },
     {
-        "date": "2023-05-14T13:30:00Z",
-        "duration": "4h",
-        "players": "Eru, Moofal, Purple, Warlolrd",
-        "description": "5e"
+        "date": "2023-06-23T15:30:00Z",
+        "duration": "3h 30m",
+        "players": "Eru, Moro, Salad, Gnome",
+        "description": "Armour Astir Advent"
     },
     {
-        "date": "2023-05-17T19:30:00Z",
-        "duration": "4h",
-        "players": "Furret, Purple, Tom, (+1 open slot)",
-        "description": "Pf2e"
+        "date": "2023-06-26T23:00:00Z",
+        "duration": "3h 30m",
+        "players": "Ketch, Leadpipe, SteelUrMind, Syameal",
+        "description": "Mask: a new generation, cont from 20th"
     },
     {
-        "date": "2023-05-19T18:30:00Z",
+        "date": "2023-06-28T13:00:00Z",
         "duration": "4h",
-        "players": "Firefan, Luz, Pipe, Tom",
-        "description": "5e"
-    },
-    {
-        "date": "2023-05-20T13:00:00Z",
-        "duration": "4h",
-        "players": "Folo, Neeko, Warlord, (+1 open slot)",
-        "description": "5e"
-    },
-    {
-        "date": "2023-05-22T18:00:00Z",
-        "duration": "4h",
-        "players": "Firefan, Moofal, Tom, (+1 open slot)",
-        "description": "Pf2e"
-    },
-    {
-        "date": "2023-05-24T16:00:00Z",
-        "duration": "4h",
-        "players": "Eru, Folo, Purple, Arteest76",
-        "description": "5e - continued from 10th"
-    },
-    {
-        "date": "2023-05-27T00:00:00Z",
-        "duration": "4h",
-        "players": "Luz, Neeko, Pipe, Firefan",
-        "description": "5e"
-    },
-    {
-        "date": "2023-05-29T18:00:00Z",
-        "duration": "4h",
-        "players": "Moofal, Purple, Tom, (+1 open slot)",
-        "description": "Pf2e"
+        "players": "Ce'Nedra, Neeko, Syameal, Salad",
+        "description": "FIST: Ultra, cont from 21st"
     }
 ]
