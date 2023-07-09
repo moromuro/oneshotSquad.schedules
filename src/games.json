@@ -1,62 +1,74 @@
 [
     {
-        "date": "2023-06-12T23:00:00Z",
-        "duration": "3h 30m",
-        "players": "Leadpipe, SteelUrMind, Syameal, Ragnas",
-        "description": "FIST: Ultra"
-    },
-    {
-        "date": "2023-06-16T15:30:00Z",
-        "duration": "3h 30m",
-        "players": "Asmordeus, Eru, Moro, Purple",
-        "description": "Armour Astir Advent"
-    },
-    {
-        "date": "2023-06-16T23:00:00Z",
+        "date": "2023-07-10T13:00:00Z",
         "duration": "3h",
-        "players": "FoLo, Ketch, SteelUrMind, T-Jay",
-        "description": "Monster of the Week"
+        "players": "Ce'Nedra, Purple, Rinceswind, OPEN SLOT ",
+        "description": "Honey Heist"
     },
     {
-        "date": "2023-06-17T18:00:00Z",
-        "duration": "4h",
-        "players": " Eru, Ketch, Purple, SteelUrMind",
-        "description": "Armour Astir Advent"
-    },
-    {
-        "date": "2023-06-19T23:00:00Z",
+        "date": "2023-07-13T18:00:00Z",
         "duration": "3h 30m",
-        "players": "Ketch, Leadpipe, SteelUrMind, Syameal",
-        "description": "Mask: a new generation"
+        "players": "Folo, Picaroon, Rince, Purple",
+        "description": "5e"
     },
     {
-        "date": "2023-06-20T23:00:00Z",
-        "duration": "3h 30m",
-        "players": " Ketch, Leadpipe, SteelUrMind, Syameal",
-        "description": "Mask: a new generation, cont from 19th"
+        "date": "2023-07-15T16:00:00Z",
+        "duration": "5h",
+        "players": "Ela, Folo, Maxx, Eru",
+        "description": "5e"
     },
     {
-        "date": "2023-06-21T13:00:00Z",
+        "date": "2023-07-16T14:00:00Z",
         "duration": "3h",
-        "players": "Ce'Nedra, Neeko, Salad, Syameal",
-        "description": "FIST: Ultra"
+        "players": "Asmordeus, Firefan, Maxx, Moromuro",
+        "description": "5e - continued on the 30th"
     },
     {
-        "date": "2023-06-23T15:30:00Z",
-        "duration": "3h 30m",
-        "players": "Eru, Moro, Salad, Gnome",
-        "description": "Armour Astir Advent"
-    },
+        "date": "2023-07-18T18:00:00Z",
+        "duration": "3h",
+        "players": "Eru, Moofal, Purple, Syameal",
+        "description": "5e - BOSS FIGHT !!!"
+    }
+    ,
     {
-        "date": "2023-06-26T23:00:00Z",
-        "duration": "3h 30m",
-        "players": "Ketch, Leadpipe, SteelUrMind, Syameal",
-        "description": "Mask: a new generation, cont from 20th"
-    },
+        "date": "2023-07-20T20:00:00Z",
+        "duration": "3h",
+        "players": "Adi, Ce'Nedra, Purple, Edin",
+        "description": "5e"
+    }
+    ,
     {
-        "date": "2023-06-28T13:00:00Z",
-        "duration": "4h",
-        "players": "Ce'Nedra, Neeko, Syameal, Salad",
-        "description": "FIST: Ultra, cont from 21st"
+        "date": "2023-07-22T14:00:00Z",
+        "duration": "3h",
+        "players": "Eru, Neeko, Purple, Syameal",
+        "description": "5e"
+    }
+    ,
+    {
+        "date": "2023-07-23T14:00:00Z",
+        "duration": "3h",
+        "players": "Asmordeus, Firefan, Neeko, Arteest",
+        "description": "5e"
+    }
+    ,
+    {
+        "date": "2023-07-24T21:00:00Z",
+        "duration": "2h",
+        "players": "Adi, Folo, 2 OPEN SLOTS",
+        "description": "Crash Bandas"
+    }
+    ,
+    {
+        "date": "2023-07-29T16:00:00Z",
+        "duration": "3h",
+        "players": "Ela, Folo, Maxx, OPEN SLOT",
+        "description": "5e"
+    }
+    ,
+    {
+        "date": "2023-07-30T14:00:00Z",
+        "duration": "3h",
+        "players": "Asmordeus, Firefan, Maxx, Moromuro",
+        "description": "5e - continued from the 16th"
     }
 ]
